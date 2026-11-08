@@ -1,0 +1,23 @@
+# dependencies / build output (any depth)
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+
+# env files — keys/secrets
+.env*
+!.env.example
+
+# Supabase CLI local state
+supabase/.branches/
+supabase/.temp/
+
+# Claude Code personal settings
+.claude/settings.local.json
+
+# OS / editor / logs
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
